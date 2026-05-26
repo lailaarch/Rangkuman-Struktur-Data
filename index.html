@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Materi Struktur Data</title>
+
+  <style>
+    body{
+      margin:0;
+      display:flex;
+      height:100vh;
+      font-family:Arial;
+    }
+
+    .sidebar{
+      width:250px;
+      background:#1e293b;
+      color:white;
+      padding:20px;
+    }
+
+    .sidebar a{
+      color:white;
+      text-decoration:none;
+      display:block;
+      padding:10px;
+      margin:5px 0;
+      background:#334155;
+      border-radius:8px;
+    }
+
+    .sidebar a:hover{
+      background:#475569;
+    }
+
+    .content{
+      flex:1;
+    }
+
+    iframe{
+      width:100%;
+      height:100%;
+      border:none;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="sidebar">
+
+  <h2>Menu</h2>
+
+  <a href="Stack.html" target="content">Stack</a>
+
+  <a href="InfixPrefixPostfix.html" target="content">Infix, Prefix, Postfix</a>
+
+  <a href="Sorting.html" target="content">Sorting</a>
+
+  <a href="Hashing.html" target="content">Hashing</a>
+
+  <a href="Tree and BinaryTree.html" target="content">Tree and BinaryTree</a>
+
+</div>
+
+<div class="content">
+  <iframe name="content" src="Stack.html"></iframe>
+</div>
+
+</body>
+</html>
